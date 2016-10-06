@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Ewert" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+	
+	<meta charset="UTF-8">
+	<title> Django Hangman </title>
+</head>
+<body>
+	<container>
+		<!-- Row 1 -->
+		<div class="header row"> 
+
+			<div class="col-sm-3">
+				<img class="container-fluid img-responsive c1" src="http://vignette4.wikia.nocookie.net/djangounchained/images/1/14/Chain-Logo.png/revision/latest?cb=20120430222328" alt="">
+				<img width="390px" class="container-fluid img-responsive" src="http://static.squarespace.com/static/53323bb4e4b0cebc6a28ffa2/53576bdae4b0c288ba0d4b2e/53576d00e4b0c288ba0d8c70/1398238464745/djangounchained-poster3.jpeg?format=original" alt="">
+			</div>
+
+			<div class="col-sm-6">
+				<img class="django new img-responsive container-fluid center-block" src="http://flash.sonypictures.com/intl/au/movies/djangounchained/downloads/title/2/DjangoUnchained_title2.png" alt="">
+			</div>
+
+			<div class="col-sm-3">
+				<img class= "img-responsive container-fluid c2" src="http://vignette4.wikia.nocookie.net/djangounchained/images/1/14/Chain-Logo.png/revision/latest?cb=20120430222328" alt="">
+				<p class="attempts"> Attempts: </p>
+				<p id="guessesRemaining"></p> 
+
+			</div>
+		</div>
+
+		<!-- Row 2 -->
+		<div class="row">
+			<div class="col-sm-3">
+			</div>
+
+			<div class="game col-sm-6">
+				<p id="gameWord"></p>
+				
+				
+				
+			</div>
+			<div class="col-sm-3">
+				
+			</div>
+
+
+		</div>
+	</container>
+<script src="assets/javascript/game.js"></script>
+
+<audio controls>
+  <source  src="unchained.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+
+</container>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body {
+	background: #ee1c27;
+	margin: 0;
+	font-family: Montserrat;
+	color: black;
+	font-weight: bold;
+}
+
+.c1,.c2 {
+	height: 70px;
+}
+
+.game  {
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 24px;
+}
+#gameWord {
+	font-family: Ewert;
+	font-size: 80px;
+}
+
+#guessesRemaining {
+ font-size: 90px;
+ text-align: center;
+ font-family: Ewert;
+}
+.attempts {
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 50px;
+}
+audio {
+	 position: fixed;
+	 bottom: 0;
+}
